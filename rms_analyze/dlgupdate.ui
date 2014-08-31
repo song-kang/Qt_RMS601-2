@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DlgUpdate</class>
+ <widget class="QDialog" name="DlgUpdate">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>390</width>
+    <height>91</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Update</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="rms_analyze.qrc">
+    <normaloff>:/images/update.png</normaloff>:/images/update.png</iconset>
+  </property>
+  <widget class="QPushButton" name="checkButton">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>30</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>91</width>
+     <height>31</height>
+    </size>
+   </property>
+   <property name="text">
+    <string>Check</string>
+   </property>
+   <property name="icon">
+    <iconset resource="rms_analyze.qrc">
+     <normaloff>:/images/check.png</normaloff>:/images/check.png</iconset>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="updateButton">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>30</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>91</width>
+     <height>31</height>
+    </size>
+   </property>
+   <property name="text">
+    <string>Update</string>
+   </property>
+   <property name="icon">
+    <iconset resource="rms_analyze.qrc">
+     <normaloff>:/images/update.png</normaloff>:/images/update.png</iconset>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="manualButton">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>30</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>0</width>
+     <height>5</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>91</width>
+     <height>31</height>
+    </size>
+   </property>
+   <property name="text">
+    <string>Manual</string>
+   </property>
+   <property name="icon">
+    <iconset resource="rms_analyze.qrc">
+     <normaloff>:/images/manual.png</normaloff>:/images/manual.png</iconset>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="rms_analyze.qrc"/>
+ </resources>
+ <connections/>
+</ui>

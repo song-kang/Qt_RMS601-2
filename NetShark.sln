@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "rms_analyze", "rms_analyze\rms_analyze.vcproj", "{DCAD2F52-0C1C-499A-AF4D-D291E620903E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "rms_package", "rms_package\rms_package.vcproj", "{F52A1370-3C1E-4E35-89A3-FEEC98E8F999}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "protocol_gw103", "protocol_gw103\protocol_gw103.vcproj", "{07222382-FB48-47A7-8ADA-79DF2E001033}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "rms_update", "rms_update\rms_update.vcproj", "{4789C6B4-BD03-4B77-A3FE-C58EFEAAE5F4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DCAD2F52-0C1C-499A-AF4D-D291E620903E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DCAD2F52-0C1C-499A-AF4D-D291E620903E}.Debug|Win32.Build.0 = Debug|Win32
+		{DCAD2F52-0C1C-499A-AF4D-D291E620903E}.Release|Win32.ActiveCfg = Release|Win32
+		{DCAD2F52-0C1C-499A-AF4D-D291E620903E}.Release|Win32.Build.0 = Release|Win32
+		{F52A1370-3C1E-4E35-89A3-FEEC98E8F999}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F52A1370-3C1E-4E35-89A3-FEEC98E8F999}.Debug|Win32.Build.0 = Debug|Win32
+		{F52A1370-3C1E-4E35-89A3-FEEC98E8F999}.Release|Win32.ActiveCfg = Release|Win32
+		{F52A1370-3C1E-4E35-89A3-FEEC98E8F999}.Release|Win32.Build.0 = Release|Win32
+		{07222382-FB48-47A7-8ADA-79DF2E001033}.Debug|Win32.ActiveCfg = Debug|Win32
+		{07222382-FB48-47A7-8ADA-79DF2E001033}.Debug|Win32.Build.0 = Debug|Win32
+		{07222382-FB48-47A7-8ADA-79DF2E001033}.Release|Win32.ActiveCfg = Release|Win32
+		{07222382-FB48-47A7-8ADA-79DF2E001033}.Release|Win32.Build.0 = Release|Win32
+		{4789C6B4-BD03-4B77-A3FE-C58EFEAAE5F4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4789C6B4-BD03-4B77-A3FE-C58EFEAAE5F4}.Debug|Win32.Build.0 = Debug|Win32
+		{4789C6B4-BD03-4B77-A3FE-C58EFEAAE5F4}.Release|Win32.ActiveCfg = Release|Win32
+		{4789C6B4-BD03-4B77-A3FE-C58EFEAAE5F4}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		Qt5Version = 4.7.4_Vs2008
+	EndGlobalSection
+EndGlobal

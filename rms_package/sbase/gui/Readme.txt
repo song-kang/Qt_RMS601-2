@@ -1,0 +1,8 @@
+yssvg/*.h yssvg/*.cpp为SVG上层类，QT环境下只需要使用YsPicture和YsSvgWnd两个文件即可
+win32目录为基于WIN32的GUI的API封装
+linux目录为基于MINIGUI的API封装
+qt目录为基于QT的封装
+svg目录为SVG的核心代码
+
+svgtest为基于WIN32的SVG的DEMO程序
+qttest为基于QT的SVG的DEMO程序

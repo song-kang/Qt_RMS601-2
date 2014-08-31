@@ -1,0 +1,22 @@
+/*QComboBox{
+	border-radius:2px;
+	border:1px solid gray;
+	padding:2px;
+}
+QComboBox:hover{
+	border-radius: 3px;
+	border-width:2px;
+	border-color:rgb(50, 180, 250);
+}
+QComboBox::down-arrow{
+	image:url(:/images/arrow_down.png);
+}
+QComboBox::drop-down{
+	width:20px;
+	border-left:1px solid gray;
+	background:transparent;
+}
+QComboBox::drop-down:hover{
+	border-left:1px solid lightgray;
+	background:rgb(220, 240, 250);
+}*/

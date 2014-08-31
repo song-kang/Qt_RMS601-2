@@ -1,0 +1,21 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/update.png</file>
+        <file>images/check.png</file>
+        <file>images/xml.png</file>
+        <file>images/quit.png</file>
+        <file>images/open.png</file>
+        <file>images/cancel.png</file>
+        <file>images/lock.png</file>
+        <file>images/ok.png</file>
+        <file>images/setting.png</file>
+        <file>images/about.png</file>
+        <file>images/regional.png</file>
+        <file>images/update_big.png</file>
+        <file>images/upload.png</file>
+    </qresource>
+    <qresource prefix="/i18n">
+        <file>rms_update_zh.qm</file>
+        <file>rms_update_en.qm</file>
+    </qresource>
+</RCC>
