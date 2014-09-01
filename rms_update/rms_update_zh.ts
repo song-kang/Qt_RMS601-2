@@ -180,13 +180,13 @@
         <location filename="dlgmakeplist.cpp" line="110"/>
         <location filename="dlgmakeplist.cpp" line="130"/>
         <location filename="dlgmakeplist.cpp" line="143"/>
-        <location filename="dlgmakeplist.cpp" line="362"/>
-        <location filename="dlgmakeplist.cpp" line="369"/>
-        <location filename="dlgmakeplist.cpp" line="464"/>
-        <location filename="dlgmakeplist.cpp" line="506"/>
-        <location filename="dlgmakeplist.cpp" line="517"/>
-        <location filename="dlgmakeplist.cpp" line="528"/>
-        <location filename="dlgmakeplist.cpp" line="544"/>
+        <location filename="dlgmakeplist.cpp" line="361"/>
+        <location filename="dlgmakeplist.cpp" line="368"/>
+        <location filename="dlgmakeplist.cpp" line="463"/>
+        <location filename="dlgmakeplist.cpp" line="505"/>
+        <location filename="dlgmakeplist.cpp" line="516"/>
+        <location filename="dlgmakeplist.cpp" line="527"/>
+        <location filename="dlgmakeplist.cpp" line="543"/>
         <source>Message</source>
         <translation type="unfinished">信息</translation>
     </message>
@@ -226,67 +226,67 @@
         <translation type="unfinished">升级包生成成功，可以进行上传。</translation>
     </message>
     <message>
-        <location filename="dlgmakeplist.cpp" line="465"/>
+        <location filename="dlgmakeplist.cpp" line="464"/>
         <source>Can&apos;t readonly open file %1: %2.</source>
         <translation type="unfinished">不能只读打开文件 %1： %2。</translation>
     </message>
     <message>
-        <location filename="dlgmakeplist.cpp" line="484"/>
+        <location filename="dlgmakeplist.cpp" line="483"/>
         <source>connecting...</source>
         <translation type="unfinished">连接...</translation>
     </message>
     <message>
-        <location filename="dlgmakeplist.cpp" line="488"/>
+        <location filename="dlgmakeplist.cpp" line="487"/>
         <source>login...</source>
         <translation type="unfinished">登录...</translation>
     </message>
     <message>
-        <location filename="dlgmakeplist.cpp" line="492"/>
+        <location filename="dlgmakeplist.cpp" line="491"/>
         <source>uploading...</source>
         <translation type="unfinished">上传...</translation>
     </message>
     <message>
-        <location filename="dlgmakeplist.cpp" line="496"/>
+        <location filename="dlgmakeplist.cpp" line="495"/>
         <source>closing...</source>
         <translation type="unfinished">关闭...</translation>
     </message>
     <message>
+        <location filename="dlgmakeplist.cpp" line="505"/>
         <location filename="dlgmakeplist.cpp" line="506"/>
-        <location filename="dlgmakeplist.cpp" line="507"/>
         <source>Connect error.</source>
         <translation type="unfinished">连接错误。</translation>
     </message>
     <message>
-        <location filename="dlgmakeplist.cpp" line="511"/>
+        <location filename="dlgmakeplist.cpp" line="510"/>
         <source>Connect succeed.</source>
         <translation type="unfinished">连接成功。</translation>
     </message>
     <message>
+        <location filename="dlgmakeplist.cpp" line="516"/>
         <location filename="dlgmakeplist.cpp" line="517"/>
-        <location filename="dlgmakeplist.cpp" line="518"/>
+        <location filename="dlgmakeplist.cpp" line="527"/>
         <location filename="dlgmakeplist.cpp" line="528"/>
-        <location filename="dlgmakeplist.cpp" line="529"/>
         <source>%1.</source>
         <translation type="unfinished">%1。</translation>
     </message>
     <message>
-        <location filename="dlgmakeplist.cpp" line="522"/>
+        <location filename="dlgmakeplist.cpp" line="521"/>
         <source>Login succeed.</source>
         <translation type="unfinished">登录成功。</translation>
     </message>
     <message>
-        <location filename="dlgmakeplist.cpp" line="534"/>
+        <location filename="dlgmakeplist.cpp" line="533"/>
         <source>Upload succeed.</source>
         <translation type="unfinished">上传成功。</translation>
     </message>
     <message>
+        <location filename="dlgmakeplist.cpp" line="543"/>
         <location filename="dlgmakeplist.cpp" line="544"/>
-        <location filename="dlgmakeplist.cpp" line="545"/>
         <source>Close error: %1.</source>
         <translation type="unfinished">关闭错误： %1。</translation>
     </message>
     <message>
-        <location filename="dlgmakeplist.cpp" line="549"/>
+        <location filename="dlgmakeplist.cpp" line="548"/>
         <source>Close succeed.</source>
         <translation type="unfinished">关闭成功。</translation>
     </message>
@@ -306,22 +306,22 @@
         <translation type="unfinished">未发现远程列表 [%1]。</translation>
     </message>
     <message>
-        <location filename="dlgmakeplist.cpp" line="353"/>
+        <location filename="dlgmakeplist.cpp" line="352"/>
         <source>open file %1 error!</source>
         <translation type="unfinished">打开文件 %1 错误！</translation>
     </message>
     <message>
-        <location filename="dlgmakeplist.cpp" line="363"/>
+        <location filename="dlgmakeplist.cpp" line="362"/>
         <source>parse file failed at line row and column</source>
         <translation type="unfinished">分析文件失败在行和列</translation>
     </message>
     <message>
-        <location filename="dlgmakeplist.cpp" line="369"/>
+        <location filename="dlgmakeplist.cpp" line="368"/>
         <source>document is null!</source>
         <translation type="unfinished">DOM为空！</translation>
     </message>
     <message>
-        <location filename="dlgmakeplist.cpp" line="306"/>
+        <location filename="dlgmakeplist.cpp" line="307"/>
         <source>Write %1, %2 failed.</source>
         <translation type="unfinished">写入 %1， %2 失败。</translation>
     </message>

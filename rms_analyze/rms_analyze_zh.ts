@@ -367,177 +367,183 @@
 <context>
     <name>rms_analyze</name>
     <message>
-        <location filename="rms_analyze.cpp" line="114"/>
-        <location filename="rms_analyze.cpp" line="1221"/>
+        <location filename="rms_analyze.cpp" line="120"/>
+        <location filename="rms_analyze.cpp" line="1227"/>
         <source>Machine</source>
         <translation type="unfinished">子站装置</translation>
     </message>
     <message>
-        <location filename="rms_analyze.cpp" line="1585"/>
+        <location filename="rms_analyze.cpp" line="1623"/>
         <source>Open File</source>
         <translation type="unfinished">打开文件</translation>
     </message>
     <message>
-        <location filename="rms_analyze.cpp" line="1585"/>
+        <location filename="rms_analyze.cpp" line="1623"/>
         <source>pcap file (*.cap *.pcap);;compress file (*.7z *.tar)</source>
         <translation type="unfinished">pcap文件 (*.cap *.pcap);;压缩文件 (*.7z *.tar)</translation>
     </message>
     <message>
-        <location filename="rms_analyze.cpp" line="1123"/>
         <location filename="rms_analyze.cpp" line="1129"/>
-        <location filename="rms_analyze.cpp" line="1174"/>
-        <location filename="rms_analyze.cpp" line="1188"/>
-        <location filename="rms_analyze.cpp" line="1430"/>
-        <location filename="rms_analyze.cpp" line="1593"/>
-        <location filename="rms_analyze.cpp" line="1603"/>
-        <location filename="rms_analyze.cpp" line="1608"/>
+        <location filename="rms_analyze.cpp" line="1135"/>
+        <location filename="rms_analyze.cpp" line="1180"/>
+        <location filename="rms_analyze.cpp" line="1194"/>
+        <location filename="rms_analyze.cpp" line="1236"/>
+        <location filename="rms_analyze.cpp" line="1468"/>
+        <location filename="rms_analyze.cpp" line="1631"/>
+        <location filename="rms_analyze.cpp" line="1641"/>
+        <location filename="rms_analyze.cpp" line="1646"/>
         <source>Message</source>
         <translation type="unfinished">信息</translation>
     </message>
     <message>
-        <location filename="rms_analyze.cpp" line="23"/>
+        <location filename="rms_analyze.cpp" line="27"/>
         <source>Welcome to use NetShark software.</source>
         <translation type="unfinished">欢迎使用 NetShark 软件.</translation>
     </message>
     <message>
-        <location filename="rms_analyze.cpp" line="66"/>
+        <location filename="rms_analyze.cpp" line="72"/>
         <source>Filter: </source>
         <translation type="unfinished">过滤: </translation>
     </message>
     <message>
-        <location filename="rms_analyze.cpp" line="79"/>
+        <location filename="rms_analyze.cpp" line="85"/>
         <source>clear</source>
         <translation type="unfinished">清除</translation>
     </message>
     <message>
-        <location filename="rms_analyze.cpp" line="84"/>
+        <location filename="rms_analyze.cpp" line="90"/>
         <source>apply</source>
         <translation type="unfinished">确认</translation>
     </message>
     <message>
-        <location filename="rms_analyze.cpp" line="88"/>
+        <location filename="rms_analyze.cpp" line="94"/>
         <source>Filter Tool</source>
         <translation type="unfinished">过滤档</translation>
     </message>
     <message>
-        <location filename="rms_analyze.cpp" line="713"/>
+        <location filename="rms_analyze.cpp" line="719"/>
         <source>Cannot resolve the message.</source>
         <translation type="unfinished">无法解析此报文。</translation>
     </message>
     <message>
-        <location filename="rms_analyze.cpp" line="713"/>
+        <location filename="rms_analyze.cpp" line="719"/>
         <source>Reson: Did not find a matching parsing module</source>
         <translation type="unfinished">原因：未发现可匹配的解析模块</translation>
     </message>
     <message>
-        <location filename="rms_analyze.cpp" line="1123"/>
+        <location filename="rms_analyze.cpp" line="1129"/>
         <source>Accumulative open a maximum of 5 files!</source>
         <translation type="unfinished">累加打开文件超过5个!</translation>
     </message>
     <message>
-        <location filename="rms_analyze.cpp" line="1129"/>
+        <location filename="rms_analyze.cpp" line="1135"/>
         <source>The maximum number of lines is more than can be open, unable to open the file!</source>
         <translation type="unfinished">超过最大显示行数，不能打开文件!</translation>
     </message>
     <message>
-        <location filename="rms_analyze.cpp" line="1171"/>
-        <location filename="rms_analyze.cpp" line="1175"/>
+        <location filename="rms_analyze.cpp" line="1177"/>
+        <location filename="rms_analyze.cpp" line="1181"/>
         <source>Connect host name </source>
         <translation type="unfinished">连接主机名 </translation>
     </message>
     <message>
-        <location filename="rms_analyze.cpp" line="1171"/>
+        <location filename="rms_analyze.cpp" line="1177"/>
         <source>, please wait...</source>
         <translation type="unfinished">, 请等待...</translation>
     </message>
     <message>
-        <location filename="rms_analyze.cpp" line="1174"/>
+        <location filename="rms_analyze.cpp" line="1180"/>
         <source>Connect host name failed! Host name = </source>
         <translation type="unfinished">连接主机失败! 主机名 = </translation>
     </message>
     <message>
-        <location filename="rms_analyze.cpp" line="1175"/>
-        <location filename="rms_analyze.cpp" line="1189"/>
+        <location filename="rms_analyze.cpp" line="1181"/>
+        <location filename="rms_analyze.cpp" line="1195"/>
         <source> failed!</source>
         <translation type="unfinished"> 失败!</translation>
     </message>
     <message>
-        <location filename="rms_analyze.cpp" line="1188"/>
+        <location filename="rms_analyze.cpp" line="1194"/>
         <source>Disconnect host name failed! Host name = </source>
         <translation type="unfinished">断开主机失败! 主机名 = </translation>
     </message>
     <message>
-        <location filename="rms_analyze.cpp" line="1189"/>
+        <location filename="rms_analyze.cpp" line="1195"/>
         <source>Disconnect host name </source>
         <translation type="unfinished">断开主机 </translation>
     </message>
     <message>
-        <location filename="rms_analyze.cpp" line="1413"/>
+        <location filename="rms_analyze.cpp" line="1236"/>
+        <source>Documentation are not found in this directory.</source>
+        <translation type="unfinished">未发现帮助文档。</translation>
+    </message>
+    <message>
+        <location filename="rms_analyze.cpp" line="1451"/>
         <source>Connected to </source>
         <translation type="unfinished">连接到 </translation>
     </message>
     <message>
-        <location filename="rms_analyze.cpp" line="1425"/>
+        <location filename="rms_analyze.cpp" line="1463"/>
         <source>Not connected - press connect button to connect.</source>
         <translation type="unfinished">无连接 - 按连接按钮进行连接.</translation>
     </message>
     <message>
-        <location filename="rms_analyze.cpp" line="1593"/>
+        <location filename="rms_analyze.cpp" line="1631"/>
         <source>The file already opened!</source>
         <translation type="unfinished">文件已经打开!</translation>
     </message>
     <message>
-        <location filename="rms_analyze.cpp" line="1603"/>
+        <location filename="rms_analyze.cpp" line="1641"/>
         <source>Open file failed!</source>
         <translation type="unfinished">打开文件失败!</translation>
     </message>
     <message>
-        <location filename="rms_analyze.cpp" line="1608"/>
+        <location filename="rms_analyze.cpp" line="1646"/>
         <source>Open file failed! File size &gt; 55Mbyte.</source>
         <translation type="unfinished">打开文件失败！文件大小 &gt; 55Mbyte。</translation>
     </message>
     <message>
-        <location filename="rms_analyze.cpp" line="1616"/>
+        <location filename="rms_analyze.cpp" line="1654"/>
         <source>Opened file </source>
         <translation type="unfinished">打开文件 </translation>
     </message>
     <message>
-        <location filename="rms_analyze.cpp" line="1624"/>
+        <location filename="rms_analyze.cpp" line="1662"/>
         <source>FTP</source>
         <translation type="unfinished">FTP</translation>
     </message>
     <message>
-        <location filename="rms_analyze.cpp" line="1626"/>
+        <location filename="rms_analyze.cpp" line="1664"/>
         <source>SSH</source>
         <translation type="unfinished">SSH</translation>
     </message>
     <message>
-        <location filename="rms_analyze.cpp" line="1628"/>
+        <location filename="rms_analyze.cpp" line="1666"/>
         <source>TELNET</source>
         <translation type="unfinished">TELNET</translation>
     </message>
     <message>
-        <location filename="rms_analyze.cpp" line="1630"/>
+        <location filename="rms_analyze.cpp" line="1668"/>
         <source>HTTP</source>
         <translation type="unfinished">HTTP</translation>
     </message>
     <message>
-        <location filename="rms_analyze.cpp" line="1632"/>
+        <location filename="rms_analyze.cpp" line="1670"/>
         <source>HTTPS</source>
         <translation type="unfinished">HTTPS</translation>
     </message>
     <message>
-        <location filename="rms_analyze.cpp" line="1635"/>
+        <location filename="rms_analyze.cpp" line="1673"/>
         <source>EP-REMOTE</source>
         <translation type="unfinished">EP_REMOTE</translation>
     </message>
     <message>
-        <location filename="rms_analyze.cpp" line="1637"/>
+        <location filename="rms_analyze.cpp" line="1675"/>
         <source>TCP</source>
         <translation type="unfinished">TCP</translation>
     </message>
     <message>
-        <location filename="rms_analyze.cpp" line="301"/>
+        <location filename="rms_analyze.cpp" line="307"/>
         <source>process frame, please wait...</source>
         <translation type="unfinished">格式解析中, 请等待...</translation>
     </message>
@@ -619,171 +625,171 @@
     </message>
     <message>
         <location filename="rms_analyze.ui" line="195"/>
-        <location filename="rms_analyze.ui" line="397"/>
+        <location filename="rms_analyze.ui" line="398"/>
         <source>Help(&amp;H)</source>
         <oldsource>Help</oldsource>
         <translation type="unfinished">帮助(&amp;H)</translation>
     </message>
     <message>
-        <location filename="rms_analyze.ui" line="247"/>
+        <location filename="rms_analyze.ui" line="248"/>
         <source>Open(&amp;O)...</source>
         <translation type="unfinished">打开(&amp;O)...</translation>
     </message>
     <message>
-        <location filename="rms_analyze.ui" line="250"/>
-        <location filename="rms_analyze.ui" line="253"/>
+        <location filename="rms_analyze.ui" line="251"/>
+        <location filename="rms_analyze.ui" line="254"/>
         <source>Open</source>
         <translation type="unfinished">打开</translation>
     </message>
     <message>
-        <location filename="rms_analyze.ui" line="265"/>
+        <location filename="rms_analyze.ui" line="266"/>
         <source>Quit(Q)</source>
         <translation type="unfinished">退出(Q)</translation>
     </message>
     <message>
-        <location filename="rms_analyze.ui" line="280"/>
+        <location filename="rms_analyze.ui" line="281"/>
         <source>OpenAdd(&amp;A)...</source>
         <translation type="unfinished">追加打开(&amp;A)...</translation>
     </message>
     <message>
-        <location filename="rms_analyze.ui" line="283"/>
-        <location filename="rms_analyze.ui" line="286"/>
+        <location filename="rms_analyze.ui" line="284"/>
+        <location filename="rms_analyze.ui" line="287"/>
         <source>OpenAdd</source>
         <translation type="unfinished">追加打开</translation>
     </message>
     <message>
-        <location filename="rms_analyze.ui" line="298"/>
+        <location filename="rms_analyze.ui" line="299"/>
         <source>Close(&amp;C)</source>
         <translation type="unfinished">关闭(&amp;C)</translation>
     </message>
     <message>
-        <location filename="rms_analyze.ui" line="316"/>
+        <location filename="rms_analyze.ui" line="317"/>
         <source>Connect(&amp;C)...</source>
         <translation type="unfinished">连接(&amp;C)...</translation>
     </message>
     <message>
-        <location filename="rms_analyze.ui" line="364"/>
+        <location filename="rms_analyze.ui" line="365"/>
         <source>Option(&amp;O)...</source>
         <translation type="unfinished">选项(&amp;O)...</translation>
     </message>
     <message>
-        <location filename="rms_analyze.ui" line="367"/>
-        <location filename="rms_analyze.ui" line="370"/>
+        <location filename="rms_analyze.ui" line="368"/>
+        <location filename="rms_analyze.ui" line="371"/>
         <source>Option</source>
         <translation type="unfinished">选项</translation>
     </message>
     <message>
-        <location filename="rms_analyze.ui" line="373"/>
+        <location filename="rms_analyze.ui" line="374"/>
         <source>Ctrl+P</source>
         <translation type="unfinished">Ctrl+P</translation>
     </message>
     <message>
-        <location filename="rms_analyze.ui" line="382"/>
+        <location filename="rms_analyze.ui" line="383"/>
         <source>About(&amp;A)...</source>
         <translation type="unfinished">关于(&amp;A)...</translation>
     </message>
     <message>
-        <location filename="rms_analyze.ui" line="385"/>
-        <location filename="rms_analyze.ui" line="388"/>
+        <location filename="rms_analyze.ui" line="386"/>
+        <location filename="rms_analyze.ui" line="389"/>
         <source>About</source>
         <translation type="unfinished">关于</translation>
     </message>
     <message>
-        <location filename="rms_analyze.ui" line="400"/>
-        <location filename="rms_analyze.ui" line="403"/>
+        <location filename="rms_analyze.ui" line="401"/>
+        <location filename="rms_analyze.ui" line="404"/>
         <source>Help</source>
         <translation type="unfinished">帮助</translation>
     </message>
     <message>
-        <location filename="rms_analyze.ui" line="412"/>
+        <location filename="rms_analyze.ui" line="413"/>
         <source>Disconnect(&amp;D)</source>
         <translation type="unfinished">断开连接(&amp;D)</translation>
     </message>
     <message>
-        <location filename="rms_analyze.ui" line="436"/>
+        <location filename="rms_analyze.ui" line="428"/>
+        <source>Update(&amp;U)</source>
+        <translation type="unfinished">升级更新(&amp;U)</translation>
+    </message>
+    <message>
+        <location filename="rms_analyze.ui" line="437"/>
         <source>Email(&amp;E)...</source>
         <translation type="unfinished">邮件(&amp;E)...</translation>
     </message>
     <message>
-        <location filename="rms_analyze.ui" line="439"/>
-        <location filename="rms_analyze.ui" line="442"/>
+        <location filename="rms_analyze.ui" line="440"/>
+        <location filename="rms_analyze.ui" line="443"/>
         <source>Email</source>
         <translation type="unfinished">邮件</translation>
     </message>
     <message>
-        <location filename="rms_analyze.ui" line="256"/>
+        <location filename="rms_analyze.ui" line="257"/>
         <source>Ctrl+O</source>
         <translation type="unfinished">Ctrl+O</translation>
     </message>
     <message>
-        <location filename="rms_analyze.ui" line="268"/>
-        <location filename="rms_analyze.ui" line="271"/>
+        <location filename="rms_analyze.ui" line="269"/>
+        <location filename="rms_analyze.ui" line="272"/>
         <source>Quit</source>
         <translation type="unfinished">退出</translation>
     </message>
     <message>
-        <location filename="rms_analyze.ui" line="289"/>
+        <location filename="rms_analyze.ui" line="290"/>
         <source>Ctrl+U</source>
         <translation type="unfinished">Ctrl+U</translation>
     </message>
     <message>
-        <location filename="rms_analyze.ui" line="301"/>
+        <location filename="rms_analyze.ui" line="302"/>
         <source>Close</source>
         <translation type="unfinished">关闭</translation>
     </message>
     <message>
-        <location filename="rms_analyze.ui" line="304"/>
+        <location filename="rms_analyze.ui" line="305"/>
         <source>Close File</source>
         <translation>关闭文件</translation>
     </message>
     <message>
-        <location filename="rms_analyze.ui" line="307"/>
+        <location filename="rms_analyze.ui" line="308"/>
         <source>Ctrl+W</source>
         <translation type="unfinished">Ctrl+W</translation>
     </message>
     <message>
-        <location filename="rms_analyze.ui" line="319"/>
-        <location filename="rms_analyze.ui" line="322"/>
+        <location filename="rms_analyze.ui" line="320"/>
+        <location filename="rms_analyze.ui" line="323"/>
         <source>Connect</source>
         <translation type="unfinished">连接</translation>
     </message>
     <message>
-        <location filename="rms_analyze.ui" line="325"/>
+        <location filename="rms_analyze.ui" line="326"/>
         <source>Ctrl+N</source>
         <translation type="unfinished">Ctrl+N</translation>
     </message>
     <message>
-        <location filename="rms_analyze.ui" line="334"/>
+        <location filename="rms_analyze.ui" line="335"/>
         <source>Start(&amp;S)</source>
         <translation type="unfinished">开始(&amp;S)</translation>
     </message>
     <message>
-        <location filename="rms_analyze.ui" line="337"/>
-        <location filename="rms_analyze.ui" line="340"/>
+        <location filename="rms_analyze.ui" line="338"/>
+        <location filename="rms_analyze.ui" line="341"/>
         <source>Start</source>
         <translation type="unfinished">开始</translation>
     </message>
     <message>
-        <location filename="rms_analyze.ui" line="349"/>
+        <location filename="rms_analyze.ui" line="350"/>
         <source>Stop(&amp;T)</source>
         <translation type="unfinished">停止(&amp;T)</translation>
     </message>
     <message>
-        <location filename="rms_analyze.ui" line="352"/>
-        <location filename="rms_analyze.ui" line="355"/>
+        <location filename="rms_analyze.ui" line="353"/>
+        <location filename="rms_analyze.ui" line="356"/>
         <source>Stop</source>
         <translation type="unfinished">停止</translation>
     </message>
     <message>
-        <location filename="rms_analyze.ui" line="415"/>
-        <location filename="rms_analyze.ui" line="418"/>
+        <location filename="rms_analyze.ui" line="416"/>
+        <location filename="rms_analyze.ui" line="419"/>
         <source>Disconnect</source>
         <translation type="unfinished">断开连接</translation>
-    </message>
-    <message>
-        <location filename="rms_analyze.ui" line="427"/>
-        <source>Update</source>
-        <translation type="unfinished">更新</translation>
     </message>
 </context>
 </TS>

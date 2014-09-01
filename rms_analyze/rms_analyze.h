@@ -15,19 +15,20 @@
 #include "dlgabout.h"
 #include "dlgemail.h"
 #include "saveframe.h"
+#include "skprocess.h"
 
-#define	OPEN			0
-#define	OPEN_ADD		1
+#define	OPEN				0
+#define	OPEN_ADD			1
 
-#define	NO_FILTER		0
-#define	PEER_SRC_DST	1
-#define FIX_SRC			2
+#define	NO_FILTER			0
+#define	PEER_SRC_DST		1
+#define FIX_SRC				2
 
 #define	MAX_OPEN_FILE		5
 #define	MAX_FRAME_NUM		500000
 #define	MAX_NET_FRAME_NUM	100000
 
-#define COMMFRAMESYN	0x09D7
+#define COMMFRAMESYN		0x09D7
 
 #define FTP_PORT			21
 #define SSH_PORT			22
@@ -169,7 +170,9 @@ public slots:
 	void slotStart();
 	void slotStop();
 	void slotOption();
+	void slotHelp();
 	void slotEmail();
+	void slotUpdate();
 	void slotAbout();
 	void slotTableClicked(int row,int column);
 	void slotTreeViewExpanded(const QModelIndex &index);

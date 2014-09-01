@@ -1,4 +1,8 @@
 #include "rms_analyze.h"
+#ifdef WIN32
+	#include <windows.h>
+	#include <shellapi.h>
+#endif
 
 rms_analyze::rms_analyze(QWidget *parent, Qt::WFlags flags)
 	: QMainWindow(parent, flags)
@@ -35,7 +39,9 @@ rms_analyze::rms_analyze(QWidget *parent, Qt::WFlags flags)
 	connect(ui.actionStart,SIGNAL(triggered(bool)),this,SLOT(slotStart()));
 	connect(ui.actionStop,SIGNAL(triggered(bool)),this,SLOT(slotStop()));
 	connect(ui.actionOption,SIGNAL(triggered(bool)),this,SLOT(slotOption()));
+	connect(ui.actionHelp,SIGNAL(triggered(bool)),this,SLOT(slotHelp()));
 	connect(ui.actionEmail,SIGNAL(triggered(bool)),this,SLOT(slotEmail()));
+	connect(ui.actionUpdate,SIGNAL(triggered(bool)),this,SLOT(slotUpdate()));
 	connect(ui.actionAbout,SIGNAL(triggered(bool)),this,SLOT(slotAbout()));
 	connect(ui.actionQuit,SIGNAL(triggered(bool)),this,SLOT(close()));
 	connect(ui.tableWidget,SIGNAL(cellClicked(int,int)),this,SLOT(slotTableClicked(int,int)));
@@ -1222,11 +1228,43 @@ void rms_analyze::slotOption()
 	}
 }
 
+#define RUN_HELP_APPNAME	"manual.pdf"
+void rms_analyze::slotHelp()
+{
+	if (!CSkStaticClass::FileExists(CSkStaticClass::GetCurrentPath()+RUN_HELP_APPNAME))
+	{
+		QMessageBox::warning(this,tr("Message"),tr("Documentation are not found in this directory."));
+		return;
+	}
+	QString strCmd = "OPEN";
+	QString strFile = "IEXPLORE.EXE";
+	QString strHelp = CSkStaticClass::GetCurrentPath()+RUN_HELP_APPNAME;
+	wchar_t cmd[64] = {'\0'};
+	wchar_t file[64] = {'\0'};
+	wchar_t help[256] = {'\0'};
+	strCmd.toWCharArray(cmd);
+	strFile.toWCharArray(file);
+	strHelp.toWCharArray(help);
+	ShellExecute(NULL, cmd, file, help, NULL, SW_SHOWNORMAL);
+}
+
 void rms_analyze::slotEmail()
 {
 	DlgEmail dlg(this);
 
 	dlg.exec();
+}
+
+#define RUN_UPDATE_APPNAME	"rms_update.exe"
+void rms_analyze::slotUpdate()
+{
+	int pid, ppid;
+	QString path = CSkStaticClass::GetCurrentPath();
+	QString cmdLine = path + RUN_UPDATE_APPNAME;
+
+	skProcess m_process;
+	if (!m_process.getProcessByName(pid,ppid,RUN_UPDATE_APPNAME))
+		m_process.SystemExec(cmdLine,RUN_UPDATE_APPNAME,"",path);
 }
 
 void rms_analyze::slotAbout()

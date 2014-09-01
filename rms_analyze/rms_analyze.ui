@@ -197,6 +197,7 @@ border-style:solid;</string>
     <addaction name="actionHelp"/>
     <addaction name="separator"/>
     <addaction name="actionEmail"/>
+    <addaction name="actionUpdate"/>
     <addaction name="actionAbout"/>
    </widget>
    <addaction name="menuMenu"/>
@@ -424,7 +425,7 @@ border-style:solid;</string>
      <normaloff>:/images/update.png</normaloff>:/images/update.png</iconset>
    </property>
    <property name="text">
-    <string>Update</string>
+    <string>Update(&amp;U)</string>
    </property>
   </action>
   <action name="actionEmail">
